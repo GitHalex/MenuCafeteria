@@ -19,3 +19,23 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.titulo:hover {
+  font-size: 40px;
+}
+.moneda-precio::after {
+  content: " USD";
+}
+.flavor,
+.dessert {
+  text-align: left;
+  width: 49%;
+}
+.price {
+  text-align: right;
+  width: 49%;
+}
+
+.item p {
+  display: inline-block;
+}
