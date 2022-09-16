@@ -5,12 +5,14 @@ h1,
 h2,
 p {
   text-align: center;
-  color: rgba(9, 5, 1, 0.748);
+  color: rgba(41, 33, 1, 0.773);
+  font-size: 20px;
 }
 body {
   /* background-color: burlywood; */
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
   opacity: 80%;
+  padding: 20px;
 }
 .menu {
   width: 80%;
@@ -18,11 +20,10 @@ body {
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
 }
 
-.titulo:hover {
-  font-size: 40px;
-}
 .moneda-precio::after {
   content: " USD";
 }
@@ -38,4 +39,66 @@ body {
 
 .item p {
   display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+h1,
+h2 {
+  font-family: Impact, serif;
+}
+.established {
+  font-style: italic;
+}
+
+p {
+  font-family: monospace;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+hr {
+  height: 2px;
+  background-color: rgba(101, 80, 4, 0.677);
+  border-color: rgb(31, 30, 30);
+  border-radius: 20px;
+  border-width: 1px;
+}
+.bottom-line {
+  margin-top: 25px;
+}
+
+/* FOOTER */
+footer {
+  font-size: 14px;
+}
+a {
+  color: black;
+}
+a:visited {
+  color: rgb(89, 87, 87);
+}
+a:hover {
+  color: brown;
+}
+a:active {
+  color: brown;
+}
+.address {
+  margin-bottom: 5px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 50%;
+  margin-top: -25px;
 }
